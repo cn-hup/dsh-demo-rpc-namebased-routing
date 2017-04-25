@@ -1,0 +1,26 @@
+presence:
+  "*":
+    allow: true
+record:
+  "*":
+    create: true
+    write: true
+    read: true
+    delete: true
+    listen: true
+event:
+  "*":
+    publish: true
+    subscribe: true
+    listen: true
+rpc:
+  # turn every request of by default
+  "*":
+    provide: false
+    request: false
+  "$rpcName/$endpointId":
+    provide: "
+      user.data.isProvider === true &&
+      user.data.allowedRpcs.indexOf( $rpcName ) > -1 &&
+      $endpointId === user.id"
+    request: true

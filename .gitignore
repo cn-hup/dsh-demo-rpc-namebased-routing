@@ -1,3 +1,7 @@
+# Exclude the deepstream server directory as we've
+# moved all relevant files to ./conf
+deepstream
+
 # Logs
 logs
 *.log

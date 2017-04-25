@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "deepstream.io-client-js": "^2.1.4",
+    "minimist": "^1.2.0"
+  }
+}
