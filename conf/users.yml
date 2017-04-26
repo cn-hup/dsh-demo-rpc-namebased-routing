@@ -1,9 +1,5 @@
-# Username
 providerA:
-  # Password hash ( hash options passed within config.yml )
-  # This hash represents clear text "password" with default options
   password: "aaa"
-  # Server data is used within your permission handler
   serverData:
     isProvider: true
     allowedRpcs:
@@ -13,6 +9,13 @@ providerB:
   serverData:
     isProvider: true
     allowedRpcs:
+      - "rpc-b"
+providerC:
+  password: "ccc"
+  serverData:
+    isProvider: true
+    allowedRpcs:
+      - "rpc-a"
       - "rpc-b"
 clientA:
   password: "ccc"
