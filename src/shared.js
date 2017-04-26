@@ -34,3 +34,4 @@ ds.login({
 exports.username = argv.username;
 exports.ds = ds;
 exports.rpcname = argv.rpcname;
+exports.target = argv.target;

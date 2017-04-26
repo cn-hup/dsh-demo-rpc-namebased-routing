@@ -6,13 +6,13 @@ providerA:
   # Server data is used within your permission handler
   serverData:
     isProvider: true
-    allowedRpcs: 
+    allowedRpcs:
       - "rpc-a"
 providerB:
   password: "bbb"
   serverData:
     isProvider: true
-    allowedRpcs: 
+    allowedRpcs:
       - "rpc-b"
 clientA:
   password: "ccc"
