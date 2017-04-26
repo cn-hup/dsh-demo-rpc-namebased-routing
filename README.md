@@ -57,7 +57,7 @@ The first entry denies all RPCs by default. The second rule specifies three requ
 
 Running these examples results in the following:
 
-![Console Output](console-output.png)
+![Console Output](https://raw.githubusercontent.com/deepstreamIO/dsh-demo-rpc-namebased-routing/master/console-outout.jpg)
 
 ## Running the examples: Server
 
