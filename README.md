@@ -1,4 +1,6 @@
 # Secure namebased routing for Remote Procedure Calls
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/deepstreamIO/dsh-demo-rpc-namebased-routing.svg)](https://greenkeeper.io/)
 The following shows an example of how the same RPC can be securely provided by multiple endpoints distuingished by their name. It allows for two RPCs (`rpc-a` and `rpc-b` ) provided by three providers ( `providerA`, `providerB` and `providerC` ). A client requests them as.
 
 ```javascript
